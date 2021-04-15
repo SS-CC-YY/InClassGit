@@ -3,3 +3,4 @@ def calc(a,b):
     #print(sum)
     diff = a - b
     mul = a * b
+    div = a / b
