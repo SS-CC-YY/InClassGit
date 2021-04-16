@@ -6,3 +6,5 @@ def number():
         print("Invalid input!")
 
 num = number()
+for i in range(num):
+    print(i)
