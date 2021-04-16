@@ -12,8 +12,11 @@ def num_words():
     except:
         print("Invalid input!")
 
-#def generator_passwords():
+def generator_passwords():
+    key = random.sample(a,num_words())
+    keys = "".join(key)
+    return keys
 
-password_length = num_words()
-print(password_length)
+        
+print(generator_passwords())
 
